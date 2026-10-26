@@ -1,0 +1,11 @@
+[package]
+name = "xfhe"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+io = "0.0.2"
+rand = "0.9"
+colored = "3"
+walkdir = "2"
+tfhe = { version = "1.6", features = ["boolean", "shortint", "integer"] }
