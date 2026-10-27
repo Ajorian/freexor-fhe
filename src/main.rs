@@ -48,6 +48,6 @@ Circuit & Gates & Standard & FreeXOR \\ \hline
 fn main() -> Result<(), Box<dyn std::error::Error>>
 {
     //scenrio("samples/crypto","crypto.tex",&["AES128","AES192","AES256","SHA256","SHA512"],10)?;
-    scenrio("samples/toys","toys.tex",&["toy1","toy2","toy3"],10)?;
+    scenrio("samples/toys","toys.tex",&["XORTree","toy1","toy2","toy3"],10)?;
     Ok(())
 }
